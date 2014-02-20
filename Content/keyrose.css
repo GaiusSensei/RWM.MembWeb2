@@ -1,0 +1,23 @@
+/*
+    Document   : Content/keyrose.css
+    Created on : 2014-01-22 05:34 AM
+    Author     : GaiusSensei
+    Description:
+*/
+
+root {
+    display: block;
+}
+
+#everything {
+    background: none;
+    background-color: #fff;
+}
+
+.stepcontent { 
+    color: #fff;
+}
+
+.stepcontent {
+    background-color: #333;
+}

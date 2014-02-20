@@ -1,0 +1,75 @@
+/*
+    Document   : Content/index.css
+    Created on : 2014-01-22 03:39 AM
+    Author     : GaiusSensei
+    Description: 
+*/
+ @charset"utf-8";
+ @font-face {
+    font-family:'open_sans_lightregular';
+    src: url('Fonts/opensans-light-webfont.eot');
+    src: url('Fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'), url('Fonts/opensans-light-webfont.woff') format('woff'), url('Fonts/opensans-light-webfont.ttf') format('truetype'), url('Fonts/opensans-light-webfont.svg#open_sans_lightregular') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+root {
+    display: block;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-image: url("Images/bg.png");
+    background-repeat: repeat-x repeat-y;
+    background-attachment:fixed;
+    font-family:"open_sans_lightregular";
+}
+.row {
+    width: 100%;
+}
+#everything {
+    width: inherit;
+    min-height: 100%;
+    height: auto;
+    /* Negative indent footer by its height */
+    margin: 0 auto -20px;
+    /* Pad bottom by footer height */
+    padding: 0 0 20px;
+}
+#loading {
+    color: #000;
+    width: inherit;
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -20px;
+    padding: 0 0 20px;
+}
+#footer {
+    color: #000;
+    height: 20px;
+    text-align:center;
+}
+#logo {
+    width: 100%;
+}
+.page-header {
+    margin:0;
+    border-bottom: none;
+}
+h4 {
+    margin:0;
+}
+.stepcontent {
+    border: solid 1px #fff;
+    padding: 15px;
+}
+input {
+    border: 1px solid #aaa;
+    width: 1.1em;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+.form-group {
+    margin-top: 10px;
+}

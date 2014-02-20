@@ -1,0 +1,22 @@
+/*
+    Document   : Content/guest.css
+    Created on : 2014-01-22 05:34 AM
+    Author     : GaiusSensei
+    Description:
+*/
+
+root {
+    display: block;
+}
+
+#everything {
+    background: url("Images/guest.jpg") no-repeat top right fixed;
+}
+
+.page-header, .stepcontent { 
+    color: #fff;
+}
+
+.stepcontent {
+    background-color: #000;
+}
